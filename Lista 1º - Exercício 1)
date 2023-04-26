@@ -1,8 +1,4 @@
-programa {
-  funcao inicio() {
-    
-
-   inteiro x, resto
+inteiro x, resto
 
    escreva("Digite um Número: ")
    leia(x)
@@ -15,9 +11,3 @@ programa {
    senao{
     escreva("\nO número é ímpar. Resto = ", resto)
    }
-
-
-
-
-  }
-}
