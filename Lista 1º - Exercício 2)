@@ -1,0 +1,20 @@
+inteiro valor, a, b, c, soma
+
+   escreva("Digite o Valor de A: ")
+   leia(a)
+   escreva("Digite o Valor de B: ")
+   leia(b)
+   escreva("Digite o Valor de C: ")
+   leia(c)
+
+   soma = a + b
+
+   se (soma < c){
+    escreva("\nO valor de C: ", c,"; Resultado de A + B: ", soma,"; Sendo assim, a soma é menor que C.")
+   }
+   se (soma > c){
+    escreva("\nO valor de C: ", c,"; Resultado de A + B: ", soma,"; Sendo assim, a soma é maior que C.")
+   }
+   se (soma == c){
+    escreva("\nO valor de C: ", c,"; Resultado de A + B: ", soma,"; Sendo assim, a soma é igual que C.")
+   }
