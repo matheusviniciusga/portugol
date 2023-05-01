@@ -1,0 +1,14 @@
+inteiro valor
+real a, mult
+
+     escreva("Digite o número: ")
+     leia(a)
+
+     se (a >= 0){
+     	mult = a * 2
+     	escreva("Resultado: ", mult)
+     }
+     senao se (a < 0){
+     	mult = a * 3
+     	escreva("Resultado: ", mult)
+     }
