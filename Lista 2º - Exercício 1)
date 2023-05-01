@@ -1,0 +1,37 @@
+inteiro num_id
+real n1, n2, n3, media_exe, ma
+
+     escreva("Digite a Identificação do Aluno: ")
+     leia(num_id)
+
+     escreva("Digite a Nota 1º: ")
+     leia(n1)
+     escreva("Digite a Nota 2º: ")
+     leia(n2)
+     escreva("Digite a Nota 3º: ")
+     leia(n3)
+     escreva("Digite a Média de Exercícios: ")
+     leia(media_exe)
+
+     ma = (n1 + n2 + n3 + media_exe) / 7.0
+
+     se ((ma >= 9.0) & (ma <= 10.0))
+     {
+     	escreva("Conceito A - Aprovado")
+     }
+     senao ((ma >= 7.5) & (ma <= 9.0))
+     {
+     	escreva("Conceito B - Aprovado")
+     }
+     senao se ((ma >= 6.0) & (ma <= 7.5))
+     {
+     	escreva("Conceito C - Aprovado")
+     }
+     senao ((ma >= 4.0) & (ma <= 6.0))
+     {
+     	escreva("Conceito D - Recuperação")
+     }
+     senao (ma < 4.0)
+     {
+     	escreva("Conceito E - Reprovado")
+     }
