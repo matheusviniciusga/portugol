@@ -1,0 +1,15 @@
+real a, soma, resto
+     
+     escreva("Digite um número: ")
+     leia(a)
+
+     resto = a % 2
+
+     caso (a % 2 == 0){
+     	soma = a + 5
+     	escreva("O reultado é: ", soma)
+     }
+     contrario (a % 2 != 0){
+     	soma = a + 8
+     	escreva("O resultado é: ", soma)
+     }
