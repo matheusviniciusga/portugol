@@ -1,0 +1,39 @@
+real a, b, c, menor, medio, maior
+
+     escreva("Digite o primeiro número: ")
+     leia(a)
+     escreva("Digite o segundo número: ")
+     leia(b)
+     escreva("Digite o terceiro número: ")
+     leia(c)
+
+     se (a > b & b > c){
+        maior = a
+        meio = b
+        menor = c
+     }
+     senao se (a > c & c > b){
+        maior = a
+        meio = c
+        menor = b
+     }
+     senao se (b > a & a > n3){
+        maior = b
+        meio = a
+        menor = c
+     }
+     senao se (b > c & c > a){
+        maior = b
+        meio = c
+        menor = a
+     }
+     senao se (c > a & a > b){
+        maior = c
+        meio = a
+        menor = b
+     }
+     senao se (c > b & b > a){
+        maior = c
+        meio = b
+        menor = a
+     }
