@@ -1,14 +1,18 @@
-inteiro valor
+Portugol Web/Studio
+
 real a, mult
 
-     escreva("Digite o número: ")
-     leia(a)
+ escreva("Digite um número: ")
+ leia(a)
 
-     se (a >= 0){
-     	mult = a * 2
-     	escreva("Resultado: ", mult)
-     }
-     senao se (a < 0){
-     	mult = a * 3
-     	escreva("Resultado: ", mult)
-     }
+ se (a > 0){
+   mult = a * 2
+   escreva("Sendo o número positivo, o resultado do seu dobro é: ", mult)
+ }
+ senao se (a < 0){
+   mult = a * 3
+   escreva("Sendo o número negativo, o resultado do seu triplo é: ", mult)
+ }
+ senao{
+   escreva("Funcionalidade não adquirida pelo programa.")
+ }
