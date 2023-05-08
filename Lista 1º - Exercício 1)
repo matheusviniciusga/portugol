@@ -1,13 +1,32 @@
+Portugol Web
+
 inteiro x, resto
 
-   escreva("Digite um Número: ")
-   leia(x)
+ escreva("Digite um Número: ")
+ leia(x)
 
-   resto = x % 2
+ resto = x % 2
 
-   se (resto == 0){
-    escreva("\nO número é par. Resto = ", resto)
-   }
-   senao{
-    escreva("\nO número é ímpar. Resto = ", resto)
-   }
+ se (resto == 0){
+   escreva("\nO número é par. Resto = ", resto)
+ }
+ senao{
+   escreva("\nO número é ímpar. Resto = ", resto)
+ }
+_________________________________________________
+
+Portugol Studio
+
+inteiro x, resto
+
+ escreva("Digite o Número: ")
+ leia(x)
+
+ resto = x % 2
+
+ se (resto == 0){
+   escreva("O número digitado é par. Resto = ", resto)
+ }
+se (resto == 1){
+   escreva("O número digitado é ímpar. Resto = ", resto)
+ }
