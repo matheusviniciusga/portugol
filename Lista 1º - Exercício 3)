@@ -1,18 +1,42 @@
-inteiro a, b, c, valor, soma, mult
+   Portugol Web
 
-   escreva("Digite o Valor de A: ")
-   leia(a)
-   escreva("Digite o Valor de B: ")
-   leia(b)
+inteiro a, b, soma, mult
 
-   soma = a + b
-   mult = a * b
+ escreva("Digite o Valor de A: ")
+ leia(a)
+ escreva("Digite o Valor de B: ")
+ leia(b)
 
-   se (a == b){
-    (soma)
-    escreva("\nSendo A = B, o valor da variável C é: ", soma)
-   }
-   se (a != b){
-    (mult)
-    escreva("\nSendo A != B, o valor da variável C é: ", mult)
-   }
+ soma = a + b
+ mult = a * b
+
+ se (a == b){
+  (soma)
+   escreva("\nSendo A = B, o valor da variável C é: ", soma)
+  }
+ se (a != b){
+  (mult)
+  escreva("\nSendo A != B, o valor da variável C é: ", mult)
+ }
+ _________________________________________________
+ 
+ Portugol Studio
+ 
+inteiro a, b, soma, mult
+
+ escreva("Digite o 1º Número: ")
+ leia(a)
+ escreva("Digite o 2º Número: ")
+ leia(b)
+
+ soma = a + b
+ mult = a * b
+
+ se (a == b){
+	soma = a + b
+	escreva("O resultado da variável C é: ", soma)
+ }
+ se (a != b){
+	mult = a * b
+	escreva("O resultado da variável C é: ", mult)
+ }
